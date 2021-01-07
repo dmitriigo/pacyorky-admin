@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${PA_USER}
+    password: ${PA_PASSWORD}
+    url: ${PA_DB_HOST}
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
