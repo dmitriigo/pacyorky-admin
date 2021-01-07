@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: ${PG_PACYORKY_USER}
-    password: ${PG_PACYORKY_PASS}
-    url: ${DB_PACYORKY_HOST}
+    username: ${PA_USER}
+    password: ${PA_PASSWORD}
+    url: ${PA_DB_HOST}
   jpa:
     generate-ddl: true
     hibernate:
